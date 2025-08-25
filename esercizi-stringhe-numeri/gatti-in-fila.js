@@ -17,4 +17,8 @@
 
   http://www.imparareaprogrammare.it
 */
-var cats = 44 ;
+var cats = (44) ;
+var Inline= (6) ;
+var NumLines= (Match.ceil(cats/Inline);
+var missing= NumLines*Inline-Cats;
+console.log("${cats} gatti in fila per ${Inline} si unirono compatti in ${NumLines} file. Nell ultima fila rimasero ${missing} posti disponibili.");
