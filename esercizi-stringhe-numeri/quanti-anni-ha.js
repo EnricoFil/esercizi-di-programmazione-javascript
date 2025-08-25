@@ -11,3 +11,8 @@
 
   http://www.imparareaprogrammare.it
 */
+var AnnoCorr=(2025);
+var Annodinascita=(1935);
+var Eta= (AnnoCorr-Annodinascita);
+var Annimancanti=(100-Eta);
+console.log("Lui ha: " + Eta + " anni, gli mancano " + Annimancanti + " anni per arrivare a 100.");
