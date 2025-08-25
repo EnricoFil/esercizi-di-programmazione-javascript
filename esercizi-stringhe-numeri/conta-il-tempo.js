@@ -12,3 +12,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var totsec= (12560);
+var ore= Math.floor(totsec/3600);//1 ora 3600 sec//
+var secrimanenti= (totsec%3600);
+var minuti= Math.floor(secrimanenti/60);
+var secondi= (secrimanenti%60);
+console.log(ore+"ore,"+ minuti+ "minuti e "+ secondi+ "secondi.");
