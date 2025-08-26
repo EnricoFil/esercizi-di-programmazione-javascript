@@ -9,3 +9,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var temperature = [10, -2, 31, 22, 15, -6, 7];
+var maxTemp = Math.max(...temperature);
+var minTemp = Math.min(...temperature);
+
+console.log("temperatura piu alta=",maxTemp);
+console.log("temperatura piu bassa=",minTemp);
