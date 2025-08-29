@@ -21,3 +21,17 @@
 
   http://www.imparareaprogrammare.it
 */
+console.log("MENU");
+console.log("Tiramisu");
+console.log("Torta della nonna");
+console.log("Cheesecake alla nutella");
+console.log("Macedonia");
+
+var scelta = 2
+if (scelta===1) {console.log("Hai scelto il Tiramisu");
+}else if (scelta===2) {console.log("Hai scelto la Torta della nonna");
+}else if (scelta===3) {console.log("Hai scelto la Cheesecake alla nutella");
+}else if (scelta===4) {console.log("Hai scelto la Macedonia");
+}else {
+  console.log("dolce non disponibile.")
+}
