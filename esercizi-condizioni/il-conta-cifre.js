@@ -11,3 +11,13 @@
 
   http://www.imparareaprogrammare.it
 */
+var numeroiniziale = 245;
+console.log("numero iniziale = "+ numeroiniziale);
+var testo = String(numeroiniziale);
+console.log(testo.length);
+var numeroCifre = testo.length;
+if (numeroCifre === 1) {console.log("cifra");
+
+}else {
+  console.log("cifre");
+}
