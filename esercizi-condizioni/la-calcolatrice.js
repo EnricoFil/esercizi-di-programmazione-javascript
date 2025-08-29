@@ -28,3 +28,23 @@
 
   http://www.imparareaprogrammare.it
 */
+var a = 12
+var b = -12
+var operazione = "somma"
+if (operazione==="somma") {console.log(a+b);
+}
+if (operazione==="sottrazione") {console.log(a-b);
+}
+if (operazione==="moltiplicazione") {console.log(a*b);
+}
+if (operazione==="divisione") {if (b===0){console.log("impossibile");
+
+}else {
+  console.log(a/b);
+}
+ }
+ if (operazione==="modulo") {console.log(Math.floor(a%b));
+ }
+ if (operazione==="media") {console.log((a+b)/2);
+
+ }
