@@ -15,3 +15,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var num = 22
+if(num % 2 == 0){
+console.log("1")
+}
+else {console.log("0");
+}
