@@ -24,7 +24,6 @@ console.log("voto = "+ v);
 if (v < 18) {
   console.log("Insufficiente");
 } else if (v < 21) {
-  // qui sappiamo che v è almeno 18, quindi 18 <= v < 21
   console.log("Sufficiente");
 } else if (v < 24) {
   console.log("Buono");
