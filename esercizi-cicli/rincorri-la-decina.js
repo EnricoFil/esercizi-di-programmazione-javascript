@@ -19,3 +19,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var output = "";
+for (var i = 1; i <= 100; i++) {
+  output += i + " ";
+  if (i%10 === 0) {
+    output += "\n";
+  }
+}
+console.log(output);
