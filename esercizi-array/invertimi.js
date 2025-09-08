@@ -15,3 +15,14 @@
 
   http://www.imparareaprogrammare.it
 */
+var n = 5;
+var numeri =[];
+
+for (var i = 0; i < n; i++) {
+  var ncasuale = Math.floor(Math.random()*100);
+  numeri.push(ncasuale);
+}
+console.log("array originale: ",numeri);
+
+var invertito= numeri.slice().reverse();
+console.log("array invertito: ",invertito);
