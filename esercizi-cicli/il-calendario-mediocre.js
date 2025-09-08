@@ -45,3 +45,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var giornisettimana = ["lun","mar","mer","gio","ven","sab","dom"];
+var iniziomese= 0;
+var numerogiorni= 31;
+
+for (var giorno = 1; giorno <= numerogiorni; giorno++) {
+  var indgiornosettimana =(iniziomese+(giorno-1))%7;
+  console.log(giornisettimana[indgiornosettimana]+" "+ giorno);
+}
