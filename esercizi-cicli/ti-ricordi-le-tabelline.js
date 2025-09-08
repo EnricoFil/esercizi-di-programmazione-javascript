@@ -8,3 +8,7 @@
 
   http://www.imparareaprogrammare.it
 */
+var numero = 7
+for (var i = 0; i <= 10; i++) {
+  console.log(i * numero);
+}
