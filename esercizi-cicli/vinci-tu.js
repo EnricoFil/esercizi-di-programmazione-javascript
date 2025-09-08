@@ -14,3 +14,12 @@
 
   http://www.imparareaprogrammare.it
 */
+var ntiri = 3;
+var punteggio = 0;
+
+for (var i = 0; i < ntiri; i++) {
+  var tiro = Math.floor(Math.random() * 6) + 1;
+  punteggio += tiro;                       
+}
+
+console.log("Punteggio giocatore 1:", punteggio);
